@@ -39,4 +39,4 @@ COPY shiny-server.sh /usr/bin/shiny-server.sh
 # Make the ShinyApp available at port 80
 EXPOSE 80
 
-CMD ["/usr/bin/shiny-server.sh"]
+CMD ["chmod", "+x", "/usr/bin/shiny-server.sh"]
