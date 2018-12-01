@@ -10,7 +10,8 @@ app <- function() {
 
   ui <- fluidRow(title = 'Minimal app',
                  numericInput("num_input", "Please insert a number n:", 0),
-                 textOutput('text_out')
+                 textOutput('text_out'),
+                 actionButton("goButton", "Go!")
   )
 
   server <- function(input, output, session) {
