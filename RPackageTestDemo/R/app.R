@@ -11,7 +11,7 @@ app <- function() {
   ui <- fluidRow(title = 'Minimal app',
                  numericInput("num_input", "Please insert a number n:", 0),
                  textOutput('text_out'),
-                 actionButton("goButton", "Go!")
+                 actionButton("goButton", "Although this button is not functional as a button, it triggers a solid build on GCP! Welcome to my first CI/CP pipeline MVP!")
   )
 
   server <- function(input, output, session) {
