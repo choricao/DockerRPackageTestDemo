@@ -1,4 +1,1 @@
-#### To trigger build again.
-#### Just created a deployment on GKE.
-#### Success? Let's see!
-#### Yes, I did it!! Welcome to my first CI/CD pipeline MVP on GCP!
+This project is a dockerized-packaged R Shiny app (a simple square calculator) that created for my internship project at Milliman. This repo is used for my first CI/CD pipeline for GCP Kubernetes Engine.  Pipeline was built according to this super helpful tutorial https://medium.freecodecamp.org/continuous-deployment-for-node-js-on-google-cloud-platform-751a035a28d5. The deployment link is http://35.243.252.183/. I will keep it alive for a while (maybe 10 days?), but not forever. :) FYI, today is Dec 2, 2018.
